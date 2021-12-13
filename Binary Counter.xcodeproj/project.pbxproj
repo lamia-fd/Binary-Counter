@@ -16,6 +16,8 @@
 		5F5328E82767AEB500CDAAF6 /* Binary_CounterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F5328E72767AEB500CDAAF6 /* Binary_CounterTests.swift */; };
 		5F5328F22767AEB500CDAAF6 /* Binary_CounterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F5328F12767AEB500CDAAF6 /* Binary_CounterUITests.swift */; };
 		5F5328F42767AEB500CDAAF6 /* Binary_CounterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F5328F32767AEB500CDAAF6 /* Binary_CounterUITestsLaunchTests.swift */; };
+		5F5329012767B43700CDAAF6 /* cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F5329002767B43700CDAAF6 /* cell.swift */; };
+		5F5329072767CEB500CDAAF6 /* customCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F5329062767CEB400CDAAF6 /* customCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		5F5328ED2767AEB500CDAAF6 /* Binary CounterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Binary CounterUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F5328F12767AEB500CDAAF6 /* Binary_CounterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Binary_CounterUITests.swift; sourceTree = "<group>"; };
 		5F5328F32767AEB500CDAAF6 /* Binary_CounterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Binary_CounterUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5F5329002767B43700CDAAF6 /* cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cell.swift; sourceTree = "<group>"; };
+		5F5329062767CEB400CDAAF6 /* customCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,10 +106,12 @@
 				5F5328D02767AEAB00CDAAF6 /* AppDelegate.swift */,
 				5F5328D22767AEAB00CDAAF6 /* SceneDelegate.swift */,
 				5F5328D42767AEAB00CDAAF6 /* ViewController.swift */,
+				5F5329062767CEB400CDAAF6 /* customCell.swift */,
 				5F5328D62767AEAB00CDAAF6 /* Main.storyboard */,
 				5F5328D92767AEB400CDAAF6 /* Assets.xcassets */,
 				5F5328DB2767AEB400CDAAF6 /* LaunchScreen.storyboard */,
 				5F5328DE2767AEB400CDAAF6 /* Info.plist */,
+				5F5329002767B43700CDAAF6 /* cell.swift */,
 			);
 			path = "Binary Counter";
 			sourceTree = "<group>";
@@ -259,6 +265,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				5F5328D52767AEAB00CDAAF6 /* ViewController.swift in Sources */,
+				5F5329012767B43700CDAAF6 /* cell.swift in Sources */,
+				5F5329072767CEB500CDAAF6 /* customCell.swift in Sources */,
 				5F5328D12767AEAB00CDAAF6 /* AppDelegate.swift in Sources */,
 				5F5328D32767AEAB00CDAAF6 /* SceneDelegate.swift in Sources */,
 			);
